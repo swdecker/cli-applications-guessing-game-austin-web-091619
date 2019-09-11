@@ -3,6 +3,8 @@ def run_guessing_game
   target = random_number()
   user_prompt()
   guess = user_input()
+  if guess == target
+    
 end
 
 def user_input
