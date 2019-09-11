@@ -4,6 +4,11 @@ def run_guessing_game
   user_prompt()
   guess = user_input()
   if guess == target
+    puts "You guessed the correct number!"
+  elsif guess == "exit"
+    puts "Goodbye!"
+  else
+    puts ""
     
 end
 
