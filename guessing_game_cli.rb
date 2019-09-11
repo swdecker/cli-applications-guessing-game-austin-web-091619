@@ -3,7 +3,7 @@ def run_guessing_game
   target = random_number()
   user_prompt()
   guess = user_input()
-  if guess == target
+  if guess == "#{target}"
     puts "You guessed the correct number!"
   elsif guess == "exit"
     puts "Goodbye!"
