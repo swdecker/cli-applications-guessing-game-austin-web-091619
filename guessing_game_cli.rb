@@ -12,4 +12,7 @@ def random_number
   rand(5)+1
 end
 
+def user_prompt
+  puts "Guess a "
+
 
